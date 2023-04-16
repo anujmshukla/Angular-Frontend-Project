@@ -1,0 +1,19 @@
+
+<mat-toolbar color='primary' class="mat-elevation-z6">
+    <img src="/assets/Images/Logo.png" alt="Logo" height="50px" width="50px">
+    &nbsp;&nbsp;
+    <span>MindHawks</span>
+    <div class="space"> </div>
+    <a mat-button routerLink=''>Home</a>
+    <a mat-button routerLink="vision">Vision</a>
+    <button mat-button [mat-menu-trigger-for]="menu">At Your Services<mat-icon>expand_more</mat-icon></button>
+    <a mat-button routerLink="knowUs">Know Us</a>
+    
+</mat-toolbar>
+<mat-menu #menu="matMenu" class="mat-elevation-z6">
+    <ng-template matMenuContent>
+    <button mat-menu-item routerLink="agriculture" >Agriculture</button>
+    <button mat-menu-item routerLink="surveillance" >Surveillance</button>
+    <button mat-menu-item routerLink="delivery">Delivery</button>
+    </ng-template>
+</mat-menu>

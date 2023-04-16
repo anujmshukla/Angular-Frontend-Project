@@ -1,0 +1,43 @@
+.Base{
+    background-color:rgba(5, 85, 101, 0.941); 
+    padding: 70px;
+    color: white;
+}
+.head{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Content{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+.Choose-us{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 90px;
+    margin: 30px;
+}
+.Choose-us-content{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.number{
+    font-size: 100px;
+}
+.numbcont{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+.colour{
+background-color: rgba(242, 241, 241, 0.929);
+}
